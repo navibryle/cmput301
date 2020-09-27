@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1745006720/GearBook.iml" filepath="$PROJECT_DIR$/.idea/modules/1745006720/GearBook.iml" group="GearBook" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GearBook-app.iml" filepath="$PROJECT_DIR$/.idea/modules/GearBook-app.iml" group="GearBook/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="GearBook/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1671659971/ipenales-GearBook-GearBook.iml" filepath="$PROJECT_DIR$/.idea/modules/1671659971/ipenales-GearBook-GearBook.iml" group="GearBook" />
     </modules>
   </component>
 </project>
