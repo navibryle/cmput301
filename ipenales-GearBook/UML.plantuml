@@ -1,0 +1,26 @@
+@startuml assignment1.plantuml
+skinparam classAttributeIconSize 0
+class GearList{
+    -length=int
+    -list=ArrayAdapter
+    -total=int
+    -selected=Gear
+    +addGear()
+    +removeGear()
+}
+class Gear{
+    -date=date
+    -maker=string
+    -desc=string
+    -price=float
+    -comment=float
+}
+class AddFragment{
+    -dateEditText=reference
+    -makerEditText=reference
+    -descEditText=reference
+    -priceEditText=reference
+    -commentEditText=reference
+    +onAddInterface()
+}
+@enduml
