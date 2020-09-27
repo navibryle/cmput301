@@ -20,20 +20,17 @@ public class AddGearFragment extends DialogFragment {
     private EditText desc;
     private EditText price;
     private EditText comment;
+    private GearList list;
     private OnFragmentInteractionListener listener;
     AddGearFragment(EditText dateRef,EditText makerRef,EditText descRef,
-                    EditText priceRef,EditText commentRef){
+                    EditText priceRef,EditText commentRef,GearList argList){
+        list = argList;
         //initialize references to input fields of the fragment
-        date = dateRef;
-        maker = makerRef;
-        desc = descRef;
-        price = priceRef;
-        comment = commentRef;
     }
     public interface OnFragmentInteractionListener {
         //this will be implemented in MainActivity checks for correctness of input
         //will also be done in main activity
-        void addGear(String date,String maker,String desc,String price,String comment);
+        void addGear(String date,String maker,String desc,String price,String comment,GearList arglist);
     }
 
     @Override
@@ -51,6 +48,11 @@ public class AddGearFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
         View view = LayoutInflater.from(getActivity()).inflate(R.layout.add_gear_fragment_layout, null);
+        date = view.findViewById(R.id.date_editText);
+        maker = view.findViewById(R.id.maker_editText);
+        desc = view.findViewById(R.id.desc_editText);
+        price = view.findViewById(R.id.price_editText);
+        comment = view.findViewById(R.id.comment_editText);
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         return builder
                 .setView(view)
@@ -61,7 +63,7 @@ public class AddGearFragment extends DialogFragment {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         listener.addGear(date.getText().toString(),maker.getText().toString(),
                                 desc.getText().toString(), price.getText().toString(),
-                                comment.getText().toString());
+                                comment.getText().toString(),list);
                     }}).create();
     }
 }

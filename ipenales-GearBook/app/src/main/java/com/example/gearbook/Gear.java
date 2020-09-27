@@ -5,17 +5,23 @@ import android.view.View;
 import java.util.Date;
 
 public class Gear {
-    private Date date;
-    String maker;
-    String description;
-    float price;
-    String comment;
-
-    public Date  getDate() {
+    private String date;
+    private String maker;
+    private String description;
+    private String price;
+    private String comment;
+    Gear(String dateArg,String makerArg,String descriptionArg,String priceArg,String commentArg){
+        date = dateArg;
+        maker = makerArg;
+        description = descriptionArg;
+        price = priceArg;
+        comment = commentArg;
+    }
+    public String  getDate() {
         return date;
     }
 
-    public float getPrice() {
+    public String  getPrice() {
         return price;
     }
 

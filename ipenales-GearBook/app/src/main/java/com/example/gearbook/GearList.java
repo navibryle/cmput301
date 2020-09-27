@@ -4,8 +4,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class GearList {
-    private ArrayAdapter <Gear> gearList;
-    public GearList(ArrayAdapter <Gear> argGearList, ListView parent){
+    private GearListAdapter gearList;
+    public GearList(GearListAdapter argGearList, ListView parent){
         //this constructor will
         gearList = argGearList;
         parent.setAdapter(gearList);

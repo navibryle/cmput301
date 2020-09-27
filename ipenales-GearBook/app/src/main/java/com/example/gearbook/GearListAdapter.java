@@ -25,7 +25,7 @@ public class GearListAdapter extends ArrayAdapter<Gear>{
     public View getView(int position, View convertView, ViewGroup parent){
         View view = convertView;
         if (view == null){
-            view = LayoutInflater.from(contextInstance).inflate(R.layout.gear_list_disp,parent);
+            view = LayoutInflater.from(contextInstance).inflate(R.layout.gear_list_disp,parent,false);
         }
         Gear curGear = list.get(position);
         ((TextView) view.findViewById(R.id.priceDisp)).setText(String.valueOf(curGear.getPrice()));

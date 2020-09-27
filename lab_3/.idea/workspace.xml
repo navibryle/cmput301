@@ -7,19 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919476d5-1e61-4846-9ad4-2904534eda9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/AddBtn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/AddBtn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/AddGearFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/AddGearFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/Gear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/GearList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/GearList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/java/com/example/gearbook/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipenales-GearBook/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_30" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -33,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cmput_301_assignment1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -161,10 +162,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2754" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1600913027907" />
-    <state x="816" y="329" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601175120488">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="776" y="329" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601223333140">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="776" y="329" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1601092716763" />
+    <state x="776" y="329" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1601223333140" />
     <state x="2696" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1601158300458" />
     <state x="816" y="329" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1601175120488" />
     <state width="903" height="278" key="GridCell.Tab.0.bottom" timestamp="1600965557175">
@@ -191,9 +192,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2087" y="125" width="1653" height="855" key="com.android.tools.idea.avdmanager.AvdListDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1600913532199" />
-    <state x="2569" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1600965046988">
+    <state x="2569" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1601223065280">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2569" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1601223065280" />
     <state x="2569" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1600965046988" />
     <state x="2576" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1600913682961">
       <screen x="1920" y="0" width="1920" height="1080" />
